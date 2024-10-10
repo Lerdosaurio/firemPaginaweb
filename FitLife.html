@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Entrenamiento Personal</title>
+    <link rel="stylesheet" href="FitLife.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenido a FitLife</h1>
+            <p>Entrenamiento personal adaptado a ti</p>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Planes</a></li>
+                    <li><a href="#section2">Nutrición</a></li>
+                    <li><a href="#section3">Entrenadores</a></li>
+                    <li><a href="#section4">Regístrate</a></li>
+                    <li><a href="#gallery">Galería</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <section class="section" id="section1">
+            <h2>Planes de Entrenamiento</h2>
+            <p>Consulta nuestros planes de entrenamiento personalizados para alcanzar tus objetivos.</p>
+            <ul>
+                <li>Plan de pérdida de peso</li>
+                <li>Plan de tonificación muscular</li>
+                <li>Plan de resistencia y cardio</li>
+                <li>Plan de fuerza y potencia</li>
+            </ul>
+        </section>
+
+        <section class="section" id="section2">
+            <h2>Consejos Nutricionales</h2>
+            <p>Optimiza tu dieta con nuestros consejos personalizados basados en tus necesidades.</p>
+            <ul>
+                <li>Dietas bajas en carbohidratos</li>
+                <li>Planificación de comidas para atletas</li>
+                <li>Suplementos recomendados</li>
+                <li>Recetas saludables</li>
+            </ul>
+        </section>
+
+        <section class="section" id="section3">
+            <h2>Entrenadores Profesionales</h2>
+            <p>Conoce a nuestros entrenadores altamente calificados que te acompañarán en cada paso de tu transformación.</p>
+            <div class="trainers">
+                <div class="trainer-card">
+                    <img data-src="entrenador 1.png" alt="Entrenador Juan">
+                    <h3>Juan Pérez</h3>
+                    <p>Especialista en entrenamiento de fuerza.</p>
+                </div>
+                <div class="trainer-card">
+                    <img data-src="entrenadora.png" alt="Entrenadora Maria">
+                    <h3>Maria López</h3>
+                    <p>Entrenadora de resistencia y nutricionista.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="section4">
+            <h2>Empieza tu Cambio Hoy</h2>
+            <p>Regístrate y lleva tu entrenamiento al siguiente nivel con FitLife.</p>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="goal">Meta de Entrenamiento:</label>
+                <select id="goal" name="goal">
+                    <option value="perder_peso">Perder Peso</option>
+                    <option value="tonificar">Tonificar</option>
+                    <option value="fuerza">Aumentar Fuerza</option>
+                    <option value="resistencia">Mejorar Resistencia</option>
+                </select>
+                
+                <button type="submit">Registrarse</button>
+            </form>
+        </section>
+    </div>
+
+    <section class="section" id="gallery">
+        <h2>Galería de Ejercicios y más...</h2>
+        <div class="gallery-container">
+            <img data-src="entt1.png" alt="Resultados 1">
+            <img data-src="enyt.png" alt="Resultados 2">
+            <img data-src="entre3.png" alt="Resultados 3">
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? ¡Escríbenos!</p>
+        <form action="#" method="post">
+            <label for="contact-name">Nombre:</label>
+            <input type="text" id="contact-name" name="contact-name" required>
+            
+            <label for="contact-email">Correo Electrónico:</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 FitLife - Todos los derechos reservados.</p>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <ul>
+                <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="FitLife.js"></script>
+</body>
+</html>
